@@ -1,0 +1,18 @@
+{
+  "name": "electron-terms",
+  "private": true,
+  "main": "index.js",
+  "description": "An attempt to find important terms in Electron's documentation",
+  "author": "Zeke Sikelianos <zeke@sikelianos.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "electron-docs": "^1.2.3",
+    "html-to-text": "^2.1.3",
+    "marky-markdown-lite": "^1.2.0",
+    "natural": "^0.4.0"
+  },
+  "scripts": {
+    "start": "node index.js > results.txt && cat results.txt"
+  }
+}
